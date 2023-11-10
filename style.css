@@ -123,7 +123,7 @@ section.modulo.parallax-3 {
     section.modulo.parallax h1 {
         color: #daa1da;
         text-align: center;
-        font-size: 1.9em;
+        font-size: 1.8em;
         text-transform: uppercase;
         text-shadow: 5px 5px 5px #998599;
         z-index: 50;
@@ -145,4 +145,20 @@ section.modulo.parallax-3 {
         background-image: url(https://cdn.pixabay.com/photo/2016/05/31/13/01/raspberries-1426859_1280.jpg);
     }
 
+}
+
+.card {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #947e7e;
+    color: #daa1da;
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
